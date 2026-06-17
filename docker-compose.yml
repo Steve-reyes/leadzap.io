@@ -1,0 +1,35 @@
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass456
+      MYSQL_DATABASE: wpclone
+      MYSQL_USER: wpclone
+      MYSQL_PASSWORD: wpclone123
+    volumes:
+      - nimo_wp_clone_db_data:/var/lib/mysql
+    healthcheck:
+      test: [CMD, mysqladmin, ping, -h, localhost]
+      timeout: 5s
+      retries: 10
+
+  wordpress:
+    depends_on:
+      db:
+        condition: service_healthy
+    image: wordpress:6.7-php8.3-apache
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wpclone
+      WORDPRESS_DB_PASSWORD: wpclone123
+      WORDPRESS_DB_NAME: wpclone
+    volumes:
+      - nimo_wp_clone_wp_data:/var/www/html
+    ports:
+      - 0.0.0.0:8083:80
+
+volumes:
+  nimo_wp_clone_db_data:
+  nimo_wp_clone_wp_data:

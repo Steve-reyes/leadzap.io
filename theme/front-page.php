@@ -1293,7 +1293,7 @@
           <li><a href="#">Case Studies</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Pricing</a></li>
+          <li><a href="/contact-us/">Contact Us</a></li>
         </ul>
       </div>
       <div class="footer-col">

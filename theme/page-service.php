@@ -131,6 +131,42 @@
     .footer-col ul li { margin-bottom:12px; }
     .footer-col ul li a { font-size:15px; color:#b5b5b5; transition:color 0.3s; }
     .footer-col ul li a:hover { color:#d6f345; }
+
+    /* ===== CONTACT FORM ===== */
+    .wpcf7-form .cf7-contact-form label { display:block; font-size:14px; font-weight:600; color:#fff; margin-bottom:6px; }
+    .wpcf7-form .cf7-contact-form input[type="text"],
+    .wpcf7-form .cf7-contact-form input[type="email"],
+    .wpcf7-form .cf7-contact-form input[type="tel"],
+    .wpcf7-form .cf7-contact-form select,
+    .wpcf7-form .cf7-contact-form textarea {
+      width:100%; background:#1a1a1a; border:1px solid rgba(255,255,255,0.12); border-radius:12px;
+      padding:14px 18px; font-size:16px; font-family:'Inter',sans-serif; color:#fff;
+      outline:none; transition:border-color 0.3s; margin-bottom:18px;
+    }
+    .wpcf7-form .cf7-contact-form input:focus,
+    .wpcf7-form .cf7-contact-form select:focus,
+    .wpcf7-form .cf7-contact-form textarea:focus { border-color:#d6f345; }
+    .wpcf7-form .cf7-contact-form textarea { min-height:140px; resize:vertical; }
+    .wpcf7-form .cf7-contact-form input[type="submit"] {
+      background:#d6f345; color:#171619; padding:14px 40px; border:none; border-radius:100px;
+      font-family:'Inter',sans-serif; font-size:16px; font-weight:600; cursor:pointer;
+      transition:opacity 0.3s; display:inline-block;
+    }
+    .wpcf7-form .cf7-contact-form input[type="submit"]:hover { opacity:0.85; }
+    .wpcf7 form .wpcf7-response-output { margin:20px 0; padding:16px 20px; border-radius:12px; font-size:15px; }
+    .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output { border-color:#e74c3c; background:rgba(231,76,60,0.1); color:#e74c3c; }
+    .wpcf7 form.sent .wpcf7-response-output { border-color:#27ae60; background:rgba(39,174,96,0.1); color:#27ae60; }
+    .wpcf7-spinner { display:block; margin:16px auto; }
+
+    /* ===== CONTACT INFO GRID ===== */
+    .contact-info-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; margin-top:50px; }
+    .contact-info-card { background:#1a1a1a; border-radius:16px; padding:32px 28px; border:1px solid rgba(255,255,255,0.06); text-align:center; transition:all 0.4s; }
+    .contact-info-card:hover { border-color:rgba(214,243,69,0.3); transform:translateY(-4px); }
+    .contact-info-card .contact-icon { font-size:36px; margin-bottom:16px; }
+    .contact-info-card h3 { font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:700; color:#fff; margin-bottom:10px; }
+    .contact-info-card p { font-size:15px; color:#b5b5b5; line-height:1.7; }
+    .contact-info-card a { color:#d6f345; border-bottom:1px solid transparent; transition:border 0.3s; }
+    .contact-info-card a:hover { border-bottom-color:#d6f345; }
     .footer-bottom { text-align:center; font-size:15px; color:#666; }
 
     @media(max-width:991px) {
@@ -225,7 +261,7 @@
             <li><a href="<?php echo home_url('/case-studies/'); ?>">Case Studies</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Pricing</a></li>
+            <li><a href="/contact-us/">Contact Us</a></li>
           </ul>
         </div>
         <div class="footer-col">

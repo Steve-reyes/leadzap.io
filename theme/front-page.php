@@ -1066,21 +1066,6 @@
   </div>
 </section>
 
-<!-- ===== BRAND STRIP ===== -->
-<section class="brand-strip">
-  <div class="container">
-    <h3>Trusted by service pros from coast to coast</h3>
-    <div class="brand-logos">
-      <span class="brand-item">HVAC Pros</span>
-      <span class="brand-item">Plumbing Co</span>
-      <span class="brand-item">ElectriServ</span>
-      <span class="brand-item">CleanTech</span>
-      <span class="brand-item">RoofMasters</span>
-      <span class="brand-item">LawnCare+</span>
-    </div>
-  </div>
-</section>
-
 <!-- ===== ABOUT ===== -->
 <section class="about" id="about">
 <section class="about" id="about">

@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
     /* ===== RESET & BASE ===== */
     *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
@@ -1077,17 +1078,17 @@
     </div>
     <div class="about-grid">
       <div class="about-card">
-        <div class="about-card-icon">&#x1F3AF;</div>
+        <div class="about-card-icon"><i class="fas fa-bullseye"></i></div>
         <h3>What We Do</h3>
         <p>LeadZap generates qualified, ready-to-close leads for service contractors. From Google Maps scraping and local service ads to permit tracking and conversion websites — every channel is tuned specifically for trades that need their pipeline full.</p>
       </div>
       <div class="about-card">
-        <div class="about-card-icon">&#x1F4A1;</div>
+        <div class="about-card-icon"><i class="fas fa-lightbulb"></i></div>
         <h3>Who We Serve</h3>
         <p>HVAC, plumbing, electrical, roofing, landscaping, and commercial contractors. If your business relies on service calls, seasonal cycles, and local reputation — you are exactly who we build for. We know the industry, the margins, and what actually converts.</p>
       </div>
       <div class="about-card">
-        <div class="about-card-icon">&#x1F680;</div>
+        <div class="about-card-icon"><i class="fas fa-rocket"></i></div>
         <h3>The LeadZap Difference</h3>
         <p>No long contracts. No fluff reports. Every campaign has a measurable lead target. Track your cost per lead, calls per day, and revenue attributed to each channel in a dashboard that actually makes sense.</p>
       </div>

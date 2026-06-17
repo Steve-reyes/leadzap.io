@@ -304,7 +304,7 @@
       content:'';
       position:absolute;
       inset:0;
-      background:url('https://picsum.photos/seed/nimo-hero/1920/1080') center/cover no-repeat;
+      background:url('/wp-content/themes/nimo/img/leadzap/hero-bg.jpg') center/cover no-repeat;
       opacity:0.35;
     }
     .hero .container { position:relative; z-index:2; width:100%; }
@@ -1064,7 +1064,7 @@
       <div class="hero-image-wrap">
         <div class="hero-shape"></div>
         <div class="hero-shape hero-shape-2"></div>
-        <img src="https://picsum.photos/seed/nimo-hero-right/520/580" alt="Agency">
+        <img src="/wp-content/themes/nimo/img/leadzap/hero-right.jpg" alt="Agency">
       </div>
     </div>
   </div>
@@ -1147,7 +1147,7 @@
               Read More
             </a>
           </div>
-          <img id="svc-img" src="https://picsum.photos/seed/nimo-brand/500/360" alt="Service">
+          <img id="svc-img" src="/wp-content/themes/nimo/img/leadzap/service-seo.jpg" alt="Service">
         </div>
       </div>
     </div>
@@ -1250,28 +1250,28 @@
     </div>
     <div class="portfolio-grid">
       <div class="portfolio-item">
-        <img src="https://picsum.photos/seed/nimo-port1/600/420" alt="Portfolio 1">
+        <img src="/wp-content/themes/nimo/img/leadzap/port1.jpg" alt="Portfolio 1">
         <div class="portfolio-item-overlay">
           <span class="portfolio-item-tag">HVAC Website</span>
           <span class="portfolio-item-link">&#x2197;</span>
         </div>
       </div>
       <div class="portfolio-item">
-        <img src="https://picsum.photos/seed/nimo-port2/600/420" alt="Portfolio 2">
+        <img src="/wp-content/themes/nimo/img/leadzap/port2.jpg" alt="Portfolio 2">
         <div class="portfolio-item-overlay">
           <span class="portfolio-item-tag">Plumbing SEO</span>
           <span class="portfolio-item-link">&#x2197;</span>
         </div>
       </div>
       <div class="portfolio-item">
-        <img src="https://picsum.photos/seed/nimo-port3/600/420" alt="Portfolio 3">
+        <img src="/wp-content/themes/nimo/img/leadzap/port3.jpg" alt="Portfolio 3">
         <div class="portfolio-item-overlay">
           <span class="portfolio-item-tag">Electrical Lead-Gen</span>
           <span class="portfolio-item-link">&#x2197;</span>
         </div>
       </div>
       <div class="portfolio-item">
-        <img src="https://picsum.photos/seed/nimo-port4/600/420" alt="Portfolio 4">
+        <img src="/wp-content/themes/nimo/img/leadzap/port4.jpg" alt="Portfolio 4">
         <div class="portfolio-item-overlay">
           <span class="portfolio-item-tag">Branding</span>
           <span class="portfolio-item-link">&#x2197;</span>
@@ -1400,63 +1400,63 @@
         title:'Service Business SEO',
         desc:'Stop hiding on page 5. We put HVAC, plumbing, electrical, roofing, and landscaping contractors on page one of Google  -  where homeowners actually find you. Local keywords, Maps rankings, and Google Local Service Ads that pull in calls.',
         checks:['Industry-specific keyword research','Google Business Profile takeover','Local Service Ads setup & management','Technical SEO for service websites'],
-        img:'https://picsum.photos/seed/nimo-seo/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-seo.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/service-business-seo/'
       },
       {
         title:'Lead Generation',
         desc:'New business permits, building permits, and fresh construction projects happening in your service area right now. We use Google Maps data and proprietary systems to find businesses that need your work  -  enriched with names, phone numbers, and project details so you can contact them today.',
         checks:['Google Maps lead scraping for your service area','New permit & approval tracking systems','Business & contact data enrichment','Ready-to-call lead lists delivered weekly'],
-        img:'https://picsum.photos/seed/nimo-lead/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-lead.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/lead-generation/'
       },
       {
         title:'Lead-Gen Website Design',
         desc:'Your website should book jobs while you sleep. We build mobile-first, fast-loading sites with click-to-call buttons, booking forms, and service-area pages that turn browsers into booked appointments.',
         checks:['Custom lead-gen website design','Mobile-first with instant load times','Strategic CTAs & booking forms','Service area & location pages'],
-        img:'https://picsum.photos/seed/nimo-web/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-web.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/lead-gen-website-design/'
       },
       {
         title:'Local Search Optimization',
         desc:'When a pipe bursts at 2 AM, your name needs to pop up first. We optimize your Google Maps listing, local citations, and directory presence so you own every "near me" search in your territory.',
         checks:['Google Maps ranking boost','NAP consistency across 50+ sites','Local citation building','Review generation & response system'],
-        img:'https://picsum.photos/seed/nimo-local/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-local.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/local-search-optimization/'
       },
       {
         title:'Social Media Marketing',
         desc:'Before-and-after photos. Customer testimonials. Seasonal offers. We run your Facebook, Instagram, and Nextdoor presence so homeowners see your name before they even search.',
         checks:['Platform strategy per market','Weekly content with pro photos','Before/after showcase campaigns','Targeted local ad spend'],
-        img:'https://picsum.photos/seed/nimo-social/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-social.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/social-media-marketing/'
       },
       {
         title:'Google Ads & PPC',
         desc:'Stop burning cash on clicks that don\'t call. We build Google Ads campaigns engineered for one thing: phone rings and booked appointments. Call-only ads, smart bidding, and zero wasted spend.',
         checks:['Call-only & lead-gen campaigns','Local keyword & geo-targeting','Smart bidding for max conversions','Weekly performance reporting'],
-        img:'https://picsum.photos/seed/nimo-ads/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-ads.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/google-ads-ppc/'
       },
       {
         title:'Reputation Management',
         desc:'One bad review can cost you thousands. We automate review collection, respond to every rating, and build a 5-star reputation that makes choosing you a no-brainer for every homeowner.',
         checks:['Automated review request system','24/7 review monitoring & alerts','Professional response templates','Competitor reputation tracking'],
-        img:'https://picsum.photos/seed/nimo-rep/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-rep.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/reputation-management/'
       },
       {
         title:'Email & SMS Campaigns',
         desc:'Don\'t let past customers forget you exist. Automated email and SMS sequences remind them about tune-ups, seasonal maintenance, and special offers  -  turning one-time jobs into lifetime clients.',
         checks:['Automated email nurture sequences','SMS marketing for urgent offers','Seasonal campaign calendars','Performance & ROI analytics'],
-        img:'https://picsum.photos/seed/nimo-email/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-email.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/email-sms-campaigns/'
       },
       {
         title:'Branding & Logo Design',
         desc:'Your truck wrap, your website, your uniforms  -  they all tell a story. We build professional brand identities that scream trust, reliability, and quality before you say a single word.',
         checks:['Logo & wordmark design','Full brand color & type system','Truck/van wrap design','Brand guidelines document'],
-        img:'https://picsum.photos/seed/nimo-brand/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-seo.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/branding-logo-design/'
       },
 
@@ -1464,7 +1464,7 @@
         title:'B2B & Commercial Lead Gen',
         desc:'Commercial projects are bigger tickets with fewer competitors. We find commercial construction permits, new business registrations, and building approvals - then enrich every lead with decision-maker contacts for your sales team.',
         checks:['Commercial permit & approval tracking','New business registration scraping','Decision-maker contact enrichment','B2B lead lists delivered weekly'],
-        img:'https://picsum.photos/seed/nimo-b2b/500/360',
+        img:'/wp-content/themes/nimo/img/leadzap/service-b2b.jpg',
         url:'https://nimo-clone.212.227.153.56.sslip.io/b2b-commercial-lead-generation/'
       },
     ];
@@ -1496,12 +1496,12 @@
   // ===== REVIEWS =====
   (function(){
     const reviews = [
-      { name:'Tom Baker', role:'Owner, Baker HVAC Services', text:'LeadZap got us from 2 calls a day to 15+. Our Google Business profile went from page 3 to #1 in 6 weeks. Best money we have ever spent.', img:'https://picsum.photos/seed/rev1/96/96' },
-      { name:'Lisa Nguyen', role:'CEO, Pro Plumbing Co', text:'We cut our ad spend by 40% and doubled our leads. Finally found an agency that understands plumbing contractors, not just digital marketing buzzwords.', img:'https://picsum.photos/seed/rev2/96/96' },
-      { name:'Rick Morales', role:'Owner, Morales Electric', text:'I was stuck on page 5 for every keyword. LeadZap put us on page 1 in under 3 months. My phone has not stopped ringing since.', img:'https://picsum.photos/seed/rev3/96/96' },
-      { name:'Diane Harper', role:'Founder, CleanRight Services', text:'The website LeadZap built us books appointments automatically. The booking form and click-to-call alone paid for the whole project in 2 months.', img:'https://picsum.photos/seed/rev4/96/96' },
-      { name:'Steve Crawford', role:'COO, Crawford Roofing', text:'Three agencies failed before LeadZap. They actually understand roofing  -  the seasonal cycles, the big-ticket sales, the local market dynamics. Huge difference.', img:'https://picsum.photos/seed/rev5/96/96' },
-      { name:'Maria Santos', role:'Owner, Santos Landscaping', text:'Slow seasons used to terrify me. Now our email and SMS campaigns keep the schedule full year-round. 50+ new clients this year from digital alone.', img:'https://picsum.photos/seed/rev6/96/96' }
+      { name:'Tom Baker', role:'Owner, Baker HVAC Services', text:'LeadZap got us from 2 calls a day to 15+. Our Google Business profile went from page 3 to #1 in 6 weeks. Best money we have ever spent.', img:'/wp-content/themes/nimo/img/leadzap/review1.jpg' },
+      { name:'Lisa Nguyen', role:'CEO, Pro Plumbing Co', text:'We cut our ad spend by 40% and doubled our leads. Finally found an agency that understands plumbing contractors, not just digital marketing buzzwords.', img:'/wp-content/themes/nimo/img/leadzap/review2.jpg' },
+      { name:'Rick Morales', role:'Owner, Morales Electric', text:'I was stuck on page 5 for every keyword. LeadZap put us on page 1 in under 3 months. My phone has not stopped ringing since.', img:'/wp-content/themes/nimo/img/leadzap/review3.jpg' },
+      { name:'Diane Harper', role:'Founder, CleanRight Services', text:'The website LeadZap built us books appointments automatically. The booking form and click-to-call alone paid for the whole project in 2 months.', img:'/wp-content/themes/nimo/img/leadzap/review4.jpg' },
+      { name:'Steve Crawford', role:'COO, Crawford Roofing', text:'Three agencies failed before LeadZap. They actually understand roofing  -  the seasonal cycles, the big-ticket sales, the local market dynamics. Huge difference.', img:'/wp-content/themes/nimo/img/leadzap/review5.jpg' },
+      { name:'Maria Santos', role:'Owner, Santos Landscaping', text:'Slow seasons used to terrify me. Now our email and SMS campaigns keep the schedule full year-round. 50+ new clients this year from digital alone.', img:'/wp-content/themes/nimo/img/leadzap/review6.jpg' }
     ];
 
     const container = document.getElementById('reviews-slider');
@@ -1544,10 +1544,10 @@
   // ===== TEAM =====
   (function(){
     const members = [
-      { name:'Alex Rivera', role:'CEO & Founder', img:'https://picsum.photos/seed/team1/240/240' },
-      { name:'Bryann Shelton', role:'Marketing Director', img:'https://picsum.photos/seed/team2/240/240' },
-      { name:'Marcus Lee', role:'Lead Developer', img:'https://picsum.photos/seed/team3/240/240' },
-      { name:'Olivia Chen', role:'SEO Strategist', img:'https://picsum.photos/seed/team4/240/240' }
+      { name:'Alex Rivera', role:'CEO & Founder', img:'/wp-content/themes/nimo/img/leadzap/team1.jpg' },
+      { name:'Bryann Shelton', role:'Marketing Director', img:'/wp-content/themes/nimo/img/leadzap/team2.jpg' },
+      { name:'Marcus Lee', role:'Lead Developer', img:'/wp-content/themes/nimo/img/leadzap/team3.jpg' },
+      { name:'Olivia Chen', role:'SEO Strategist', img:'/wp-content/themes/nimo/img/leadzap/team4.jpg' }
     ];
     document.getElementById('team-grid').innerHTML = members.map(m => `
       <div class="team-card">
@@ -1595,9 +1595,9 @@
   // ===== BLOG =====
   (function(){
     const posts = [
-      { title:'6 SEO Hacks Every HVAC Contractor Needs in 2026', excerpt:'Local search is changing fast. Here is what is actually working to keep HVAC companies on page 1  -  and what is not.', date:'June 14, 2026', img:'https://picsum.photos/seed/blog1/400/260' },
-      { title:'Stop Building Brochure Websites. Build a Lead Machine Instead.', excerpt:'The difference between a website that sits there and a website that books jobs? These 5 features. Install them and watch your phone ring.', date:'June 7, 2026', img:'https://picsum.photos/seed/blog2/400/260' },
-      { title:'The Plumbing SEO Playbook: Own Your Local Market', excerpt:'Google Business Profile optimization, review management, and local keywords  -  the exact playbook plumbing contractors use to dominate their area.', date:'June 1, 2026', img:'https://picsum.photos/seed/blog3/400/260' }
+      { title:'6 SEO Hacks Every HVAC Contractor Needs in 2026', excerpt:'Local search is changing fast. Here is what is actually working to keep HVAC companies on page 1  -  and what is not.', date:'June 14, 2026', img:'/wp-content/themes/nimo/img/leadzap/blog1.jpg' },
+      { title:'Stop Building Brochure Websites. Build a Lead Machine Instead.', excerpt:'The difference between a website that sits there and a website that books jobs? These 5 features. Install them and watch your phone ring.', date:'June 7, 2026', img:'/wp-content/themes/nimo/img/leadzap/blog2.jpg' },
+      { title:'The Plumbing SEO Playbook: Own Your Local Market', excerpt:'Google Business Profile optimization, review management, and local keywords  -  the exact playbook plumbing contractors use to dominate their area.', date:'June 1, 2026', img:'/wp-content/themes/nimo/img/leadzap/blog3.jpg' }
     ];
     document.getElementById('blog-grid').innerHTML = posts.map(p => `
       <div class="blog-card">

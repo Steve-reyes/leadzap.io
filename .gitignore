@@ -1,0 +1,5 @@
+scripts/*.txt
+scripts/*.sql
+scripts/*.py
+.DS_Store
+*.log

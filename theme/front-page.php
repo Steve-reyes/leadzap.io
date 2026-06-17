@@ -1287,7 +1287,7 @@
             <span class="portfolio-item-tag">HVAC Lead Gen</span>
             <p class="portfolio-overlay-desc">Precision Air Flow was getting 2-3 calls a day. After our SEO + Google Ads campaign, they hit 9+ calls daily within 3 months. Revenue jumped 180%.</p>
           </div>
-          <a href="/lead-generation/" class="portfolio-item-link">&#x2197;</a>
+          <a href="/precision-air-flow-hvac-case-study/" class="portfolio-item-link">&#x2197;</a>
         </div>
         <div class="portfolio-meta"><strong>Precision Air Flow</strong><span>3x monthly leads in 90 days</span></div>
       </div>
@@ -1298,7 +1298,7 @@
             <span class="portfolio-item-tag">Roofing Local SEO</span>
             <p class="portfolio-overlay-desc">Summit Roofing was buried on page 4 of Google Maps. We rebuilt their GBP, cleaned up citations, and built location pages. They hit #1 in their city in 6 weeks.</p>
           </div>
-          <a href="/local-search-optimization/" class="portfolio-item-link">&#x2197;</a>
+          <a href="/summit-roofing-local-seo-case-study/" class="portfolio-item-link">&#x2197;</a>
         </div>
         <div class="portfolio-meta"><strong>Summit Roofing Co</strong><span>#1 Google Maps rank in 6 weeks</span></div>
       </div>
@@ -1309,7 +1309,7 @@
             <span class="portfolio-item-tag">Commercial B2B</span>
             <p class="portfolio-overlay-desc">West Coast Electric wanted commercial contracts, not residential call-outs. We set up B2B permit tracking and email outreach. They landed 3 commercial deals worth $48k in 60 days.</p>
           </div>
-          <a href="/b2b-commercial-lead-generation/" class="portfolio-item-link">&#x2197;</a>
+          <a href="/west-coast-electric-b2b-case-study/" class="portfolio-item-link">&#x2197;</a>
         </div>
         <div class="portfolio-meta"><strong>West Coast Electric</strong><span>$48k in commercial contracts secured</span></div>
       </div>
@@ -1320,7 +1320,7 @@
             <span class="portfolio-item-tag">Plumbing Google Ads</span>
             <p class="portfolio-overlay-desc">FlowMaster was burning budget on broad keywords. We narrowed to emergency plumbing + service-area targeting, cut CPA by 60%, and hit 12:1 return on every dollar spent.</p>
           </div>
-          <a href="/google-ads-ppc/" class="portfolio-item-link">&#x2197;</a>
+          <a href="/flowmaster-plumbing-google-ads-case-study/" class="portfolio-item-link">&#x2197;</a>
         </div>
         <div class="portfolio-meta"><strong>FlowMaster Plumbing</strong><span>12:1 ROAS on ad spend</span></div>
       </div>

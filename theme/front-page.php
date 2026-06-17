@@ -435,7 +435,7 @@
       padding:100px 0;
       background:#111111;
     }
-    .about-header { margin-bottom:60px; }
+    .about-header { text-align:center; margin-bottom:60px; }
     .about-grid {
       display:grid;
       grid-template-columns:repeat(3,1fr);

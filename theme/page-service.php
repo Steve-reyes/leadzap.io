@@ -133,23 +133,23 @@
     .footer-col ul li a:hover { color:#d6f345; }
 
     /* ===== CONTACT FORM ===== */
-    .wpcf7-form .cf7-contact-form label { display:block; font-size:14px; font-weight:600; color:#fff; margin-bottom:6px; }
+    .wpcf7-form .cf7-contact-form label { display:block; font-size:13px; font-weight:600; color:#fff; margin-bottom:4px; }
     .wpcf7-form .cf7-contact-form input[type="text"],
     .wpcf7-form .cf7-contact-form input[type="email"],
     .wpcf7-form .cf7-contact-form input[type="tel"],
     .wpcf7-form .cf7-contact-form select,
     .wpcf7-form .cf7-contact-form textarea {
       width:100%; background:#1a1a1a; border:1px solid rgba(255,255,255,0.12); border-radius:12px;
-      padding:14px 18px; font-size:16px; font-family:'Inter',sans-serif; color:#fff;
-      outline:none; transition:border-color 0.3s; margin-bottom:18px;
+      padding:10px 14px; font-size:15px; font-family:'Inter',sans-serif; color:#fff;
+      outline:none; transition:border-color 0.3s; margin-bottom:10px;
     }
     .wpcf7-form .cf7-contact-form input:focus,
     .wpcf7-form .cf7-contact-form select:focus,
     .wpcf7-form .cf7-contact-form textarea:focus { border-color:#d6f345; }
-    .wpcf7-form .cf7-contact-form textarea { min-height:140px; resize:vertical; }
+    .wpcf7-form .cf7-contact-form textarea { min-height:100px; resize:vertical; }
     .wpcf7-form .cf7-contact-form input[type="submit"] {
-      background:#d6f345; color:#171619; padding:14px 40px; border:none; border-radius:100px;
-      font-family:'Inter',sans-serif; font-size:16px; font-weight:600; cursor:pointer;
+      background:#d6f345; color:#171619; padding:10px 32px; border:none; border-radius:100px;
+      font-family:'Inter',sans-serif; font-size:15px; font-weight:600; cursor:pointer;
       transition:opacity 0.3s; display:inline-block;
     }
     .wpcf7-form .cf7-contact-form input[type="submit"]:hover { opacity:0.85; }

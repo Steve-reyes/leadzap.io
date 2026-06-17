@@ -111,112 +111,6 @@
     .service-page-content li { margin-bottom:10px; font-size:17px; color:#b5b5b5; line-height:1.7; }
     .service-page-content li strong { color:#fff; }
     .service-page-content .check-star { color:#d6f345; margin-right:8px; }
-    .service-page-cta {
-      text-align:center;
-      margin-top:60px;
-      padding-top:40px;
-      border-top:1px solid rgba(255,255,255,0.06);
-    }
-    .service-page-cta h3 {
-      font-family:'Space Grotesk',sans-serif;
-      font-size:28px; font-weight:700; color:#fff;
-      margin-bottom:16px;
-    }
-    .service-page-cta p {
-      font-size:16px; color:#b5b5b5; margin-bottom:24px;
-    }
-
-    .footer { background:#000000; padding:80px 0 30px; }
-    .footer-top { text-align:center; margin-bottom:60px; }
-    .footer-top h2 { font-family:'Space Grotesk',sans-serif; font-size:clamp(36px,5vw,60px); font-weight:700; color:#ffffff; margin-bottom:24px; }
-    .footer-top .nm-pr-btn-1 { margin:0 auto; }
-    .footer-grid { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:40px; padding-bottom:50px; border-bottom:1px solid rgba(255,255,255,0.06); margin-bottom:30px; }
-    .footer-col h4 { font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:700; color:#fff; margin-bottom:20px; }
-    .footer-col p { font-size:15px; color:#b5b5b5; line-height:1.7; max-width:320px; }
-    .footer-col ul li { margin-bottom:12px; }
-    .footer-col ul li a { font-size:15px; color:#b5b5b5; transition:color 0.3s; }
-    .footer-col ul li a:hover { color:#d6f345; }
-
-    /* ===== CONTACT FORM ===== */
-    .wpcf7-form .cf7-contact-form label { display:block; font-size:13px; font-weight:600; color:#fff; margin-bottom:4px; }
-    .wpcf7-form .cf7-contact-form input[type="text"],
-    .wpcf7-form .cf7-contact-form input[type="email"],
-    .wpcf7-form .cf7-contact-form input[type="tel"],
-    .wpcf7-form .cf7-contact-form select,
-    .wpcf7-form .cf7-contact-form textarea {
-      width:100%; background:#1a1a1a; border:1px solid rgba(255,255,255,0.12); border-radius:12px;
-      padding:10px 14px; font-size:15px; font-family:'Inter',sans-serif; color:#fff;
-      outline:none; transition:border-color 0.3s; margin-bottom:10px;
-    }
-    .wpcf7-form .cf7-contact-form input:focus,
-    .wpcf7-form .cf7-contact-form select:focus,
-    .wpcf7-form .cf7-contact-form textarea:focus { border-color:#d6f345; }
-    .wpcf7-form .cf7-contact-form textarea { min-height:100px; resize:vertical; }
-    .wpcf7-form .cf7-contact-form input[type="submit"] {
-      background:#d6f345; color:#171619; padding:10px 32px; border:none; border-radius:100px;
-      font-family:'Inter',sans-serif; font-size:15px; font-weight:600; cursor:pointer;
-      transition:opacity 0.3s; display:inline-block;
-    }
-    .wpcf7-form .cf7-contact-form input[type="submit"]:hover { opacity:0.85; }
-    .wpcf7 form .wpcf7-response-output { margin:20px 0; padding:16px 20px; border-radius:12px; font-size:15px; }
-    .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output { border-color:#e74c3c; background:rgba(231,76,60,0.1); color:#e74c3c; }
-    .wpcf7 form.sent .wpcf7-response-output { border-color:#27ae60; background:rgba(39,174,96,0.1); color:#27ae60; }
-    .wpcf7-spinner { display:block; margin:16px auto; }
-
-    /* ===== SUCCESS OVERLAY ===== */
-    .leadzap-overlay { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.85); z-index:99999; align-items:center; justify-content:center; backdrop-filter:blur(8px); }
-    .leadzap-overlay.active { display:flex; }
-    .leadzap-modal { background:#1a1a1a; border:1px solid rgba(255,255,255,0.08); border-radius:24px; padding:48px 40px; max-width:460px; width:90%; text-align:center; animation:modalPop 0.3s ease; }
-    @keyframes modalPop { 0% { transform:scale(0.9); opacity:0; } 100% { transform:scale(1); opacity:1; } }
-    .leadzap-modal .check-icon { width:72px; height:72px; background:#d6f345; border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 24px; font-size:36px; color:#171619; }
-    .leadzap-modal h3 { font-family:'Space Grotesk',sans-serif; font-size:26px; font-weight:700; color:#fff; margin-bottom:12px; }
-    .leadzap-modal p { font-size:15px; color:#b5b5b5; line-height:1.6; margin-bottom:28px; }
-    .leadzap-modal .modal-btn { background:#d6f345; color:#171619; padding:12px 32px; border:none; border-radius:100px; font-family:'Inter',sans-serif; font-size:15px; font-weight:600; cursor:pointer; transition:opacity 0.3s; }
-    .leadzap-modal .modal-btn:hover { opacity:0.85; }
-
-    /* ===== CONTACT INFO GRID ===== */
-    .contact-info-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; margin-top:50px; }
-    .contact-info-card { background:#1a1a1a; border-radius:16px; padding:32px 28px; border:1px solid rgba(255,255,255,0.06); text-align:center; transition:all 0.4s; }
-    .contact-info-card:hover { border-color:rgba(214,243,69,0.3); transform:translateY(-4px); }
-    .contact-info-card .contact-icon { font-size:36px; margin-bottom:16px; }
-    .contact-info-card h3 { font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:700; color:#fff; margin-bottom:10px; }
-    .contact-info-card p { font-size:15px; color:#b5b5b5; line-height:1.7; }
-    .contact-info-card a { color:#d6f345; border-bottom:1px solid transparent; transition:border 0.3s; }
-    .contact-info-card a:hover { border-bottom-color:#d6f345; }
-    .footer-bottom { text-align:center; font-size:15px; color:#666; }
-
-    @media(max-width:991px) {
-      .header-nav ul { display:none; flex-direction:column; position:fixed; top:75px; left:0; right:0; background:#1a1a1a; padding:24px; gap:0; border-bottom:1px solid rgba(255,255,255,0.06); z-index:999; }
-      .header-nav ul.open { display:flex; }
-      .header-nav ul .nav-item > a { display:block; padding:14px 0; border-bottom:1px solid rgba(255,255,255,0.04); }
-      .header-nav .sub-menu { position:static; opacity:1; visibility:visible; transform:none; pointer-events:auto; box-shadow:none; background:transparent; border:none; padding-left:20px; display:none; }
-      .header-nav .menu-item-has-children.open > .sub-menu { display:block; }
-      .header-nav .sub-menu .nav-item > a { padding:10px 0; }
-      .hamburger { display:flex; }
-    }
-    @media(min-width:992px) { .hamburger { display:none; } .header-nav ul { display:flex; } }
-  </style>
-</head>
-<body <?php body_class(); ?>>
-  <?php wp_body_open(); ?>
-
-  <header class="header">
-    <div class="container header-inner">
-      <a href="<?php echo home_url('/'); ?>" class="header-logo">LeadZap</a>
-      <nav class="header-nav">
-        <?php
-          wp_nav_menu([
-            'theme_location' => 'primary',
-            'container' => false,
-            'menu_class' => false,
-            'fallback_cb' => false,
-            'depth' => 3,
-            'walker' => new Nimo_Walker_Nav_Menu(),
-            'items_wrap' => '<ul>%3$s<li class="nav-cta"><a href="'.home_url('/#contact').'">Get in Touch</a></li></ul>',
-          ]);
-        ?>
-      </nav>
-      <div class="hamburger"><span></span><span></span><span></span></div>
     </div>
   </header>
 
@@ -236,14 +130,6 @@
         <?php the_content(); ?>
       </div>
 
-      <div class="service-page-cta">
-        <h3>Ready to make this service work for you?</h3>
-        <p>Stop guessing. Start growing. Let's talk about a plan that fits your business.</p>
-        <a href="<?php echo home_url('/#contact'); ?>" class="nm-pr-btn-1 lime-bg">
-          <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
-          Get in Touch
-        </a>
-      </div>
     </div>
   </section>
   <?php endwhile; endif; wp_reset_postdata(); ?>

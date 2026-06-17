@@ -51,7 +51,7 @@
       align-items:center;
       gap:14px;
       background:#282828;
-      color:#171619;
+      color:#e0e0e0;
       padding:6px 30px 6px 6px;
       border-radius:100px;
       font-family:'Inter',sans-serif;
@@ -1200,7 +1200,7 @@
     </div>
 
     <div class="b2b-cta">
-      <a href="/contact-us/" class="nm-pr-btn-1 lime-bg">
+      <a href="/contact-us/" class="nm-pr-btn-1">
         Get Your First B2B Lead List Free
         <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
       </a>

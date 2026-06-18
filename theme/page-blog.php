@@ -448,8 +448,8 @@
         <div class="footer-col">
           <h4>Contact</h4>
           <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="/terms-of-service/">Terms of Service</a></li>
             <li><a href="#">Support</a></li>
             <li><a href="#">Contact</a></li>
           </ul>

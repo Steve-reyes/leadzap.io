@@ -1387,7 +1387,7 @@
         title:'Service Business SEO',
         desc:'Stop hiding on page 5. We put HVAC, plumbing, electrical, roofing, and landscaping contractors on page one of Google  -  where homeowners actually find you. Local keywords, Maps rankings, and Google Local Service Ads that pull in calls.',
         checks:['Industry-specific keyword research','Google Business Profile takeover','Local Service Ads setup & management','Technical SEO for service websites'],
-        img:'/wp-content/themes/nimo/img/leadzap/service-seo.jpg',
+        img:'/wp-content/themes/nimo/img/leadzap/service-brand.jpg',
         url:'https://nimo-clone.87.106.124.206.nip.io/service-business-seo/'
       },
       {
@@ -1443,7 +1443,7 @@
         title:'Branding & Logo Design',
         desc:'Your truck wrap, your website, your uniforms  -  they all tell a story. We build professional brand identities that scream trust, reliability, and quality before you say a single word.',
         checks:['Logo & wordmark design','Full brand color & type system','Truck/van wrap design','Brand guidelines document'],
-        img:'/wp-content/themes/nimo/img/leadzap/service-seo.jpg',
+        img:'/wp-content/themes/nimo/img/leadzap/service-brand.jpg',
         url:'https://nimo-clone.87.106.124.206.nip.io/branding-logo-design/'
       },
 

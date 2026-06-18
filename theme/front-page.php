@@ -1184,7 +1184,7 @@
               <li><span class="check-star">&#x2605;</span> Google Business Profile takeover</li>
               <li><span class="check-star">&#x2605;</span> Local Service Ads setup</li>
             </ul>
-            <a id="svc-link" class="nm-pr-btn-1" href="https://nimo-clone.87.106.124.206.nip.io/service-business-seo/" target="_blank" rel="noopener">
+            <a id="svc-link" class="nm-pr-btn-1" href="https://leadzap.io/service-business-seo/" target="_blank" rel="noopener">
               <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
               Read More
             </a>
@@ -1392,63 +1392,63 @@
         desc:'Stop hiding on page 5. We put HVAC, plumbing, electrical, roofing, and landscaping contractors on page one of Google  -  where homeowners actually find you. Local keywords, Maps rankings, and Google Local Service Ads that pull in calls.',
         checks:['Industry-specific keyword research','Google Business Profile takeover','Local Service Ads setup & management','Technical SEO for service websites'],
         img:'/wp-content/themes/nimo/img/leadzap/service-seo.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/service-business-seo/'
+        url:'https://leadzap.io/service-business-seo/'
       },
       {
         title:'Lead Generation',
         desc:'New business permits, building permits, and fresh construction projects happening in your service area right now. We use Google Maps data and proprietary systems to find businesses that need your work  -  enriched with names, phone numbers, and project details so you can contact them today.',
         checks:['Google Maps lead scraping for your service area','New permit & approval tracking systems','Business & contact data enrichment','Ready-to-call lead lists delivered weekly'],
         img:'/wp-content/themes/nimo/img/leadzap/service-lead.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/lead-generation/'
+        url:'https://leadzap.io/lead-generation/'
       },
       {
         title:'Lead-Gen Website Design',
         desc:'Your website should book jobs while you sleep. We build mobile-first, fast-loading sites with click-to-call buttons, booking forms, and service-area pages that turn browsers into booked appointments.',
         checks:['Custom lead-gen website design','Mobile-first with instant load times','Strategic CTAs & booking forms','Service area & location pages'],
         img:'/wp-content/themes/nimo/img/leadzap/service-web.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/lead-gen-website-design/'
+        url:'https://leadzap.io/lead-gen-website-design/'
       },
       {
         title:'Local Search Optimization',
         desc:'When a pipe bursts at 2 AM, your name needs to pop up first. We optimize your Google Maps listing, local citations, and directory presence so you own every "near me" search in your territory.',
         checks:['Google Maps ranking boost','NAP consistency across 50+ sites','Local citation building','Review generation & response system'],
         img:'/wp-content/themes/nimo/img/leadzap/service-local.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/local-search-optimization/'
+        url:'https://leadzap.io/local-search-optimization/'
       },
       {
         title:'Social Media Marketing',
         desc:'Before-and-after photos. Customer testimonials. Seasonal offers. We run your Facebook, Instagram, and Nextdoor presence so homeowners see your name before they even search.',
         checks:['Platform strategy per market','Weekly content with pro photos','Before/after showcase campaigns','Targeted local ad spend'],
         img:'/wp-content/themes/nimo/img/leadzap/service-social.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/social-media-marketing/'
+        url:'https://leadzap.io/social-media-marketing/'
       },
       {
         title:'Google Ads & PPC',
         desc:'Stop burning cash on clicks that don\'t call. We build Google Ads campaigns engineered for one thing: phone rings and booked appointments. Call-only ads, smart bidding, and zero wasted spend.',
         checks:['Call-only & lead-gen campaigns','Local keyword & geo-targeting','Smart bidding for max conversions','Weekly performance reporting'],
         img:'/wp-content/themes/nimo/img/leadzap/service-ads.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/google-ads-ppc/'
+        url:'https://leadzap.io/google-ads-ppc/'
       },
       {
         title:'Reputation Management',
         desc:'One bad review can cost you thousands. We automate review collection, respond to every rating, and build a 5-star reputation that makes choosing you a no-brainer for every homeowner.',
         checks:['Automated review request system','24/7 review monitoring & alerts','Professional response templates','Competitor reputation tracking'],
         img:'/wp-content/themes/nimo/img/leadzap/service-rep.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/reputation-management/'
+        url:'https://leadzap.io/reputation-management/'
       },
       {
         title:'Email & SMS Campaigns',
         desc:'Don\'t let past customers forget you exist. Automated email and SMS sequences remind them about tune-ups, seasonal maintenance, and special offers  -  turning one-time jobs into lifetime clients.',
         checks:['Automated email nurture sequences','SMS marketing for urgent offers','Seasonal campaign calendars','Performance & ROI analytics'],
         img:'/wp-content/themes/nimo/img/leadzap/service-email.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/email-sms-campaigns/'
+        url:'https://leadzap.io/email-sms-campaigns/'
       },
       {
         title:'Branding & Logo Design',
         desc:'Your truck wrap, your website, your uniforms  -  they all tell a story. We build professional brand identities that scream trust, reliability, and quality before you say a single word.',
         checks:['Logo & wordmark design','Full brand color & type system','Truck/van wrap design','Brand guidelines document'],
         img:'/wp-content/themes/nimo/img/leadzap/service-brand.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/branding-logo-design/'
+        url:'https://leadzap.io/branding-logo-design/'
       },
 
       {
@@ -1456,7 +1456,7 @@
         desc:'Commercial projects are bigger tickets with fewer competitors. We find commercial construction permits, new business registrations, and building approvals - then enrich every lead with decision-maker contacts for your sales team.',
         checks:['Commercial permit & approval tracking','New business registration scraping','Decision-maker contact enrichment','B2B lead lists delivered weekly'],
         img:'/wp-content/themes/nimo/img/leadzap/service-b2b.jpg',
-        url:'https://nimo-clone.87.106.124.206.nip.io/b2b-commercial-lead-generation/'
+        url:'https://leadzap.io/b2b-commercial-lead-generation/'
       },
     ];
 

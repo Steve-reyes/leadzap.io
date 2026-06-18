@@ -1506,7 +1506,7 @@
           <div class="review-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
           <blockquote>"${r.text}"</blockquote>
           <div class="review-author">
-            <img src="${r.img}" alt="${r.name}">
+            <div class="avatar-placeholder">${r.name.split(" ")[0].charAt(0)}${r.name.split(" ")[1]?.charAt(0) || ""}</div>
             <div>
               <h5>${r.name}</h5>
               <span>${r.role}</span>

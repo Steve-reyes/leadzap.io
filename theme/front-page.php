@@ -1266,6 +1266,7 @@
   </div>
 </section>
 
+<!-- DISABLED: portfolio section
 <!-- ===== PORTFOLIO ===== -->
 <section class="portfolio" id="portfolio">
   <div class="container">
@@ -1334,6 +1335,7 @@
   </div>
 </section>
 
+-->
 <!-- ===== BLOG ===== -->
 <section class="blog" id="blog">
   <div class="container">

@@ -784,11 +784,19 @@
       align-items:center;
       gap:14px;
     }
-    .review-author img {
+    .review-author .avatar-placeholder {
       width:48px;
       height:48px;
       border-radius:50%;
-      object-fit:cover;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:700;
+      font-size:14px;
+      font-family:"Space Grotesk",sans-serif;
+      flex-shrink:0;
+      background:#d6f345;
+      color:#171619;
     }
     .review-author h5 {
       font-size:16px;

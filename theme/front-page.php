@@ -1281,7 +1281,7 @@
     </div>
     <div class="portfolio-grid">
       <div class="portfolio-item">
-        <img src="/wp-content/themes/nimo/img/leadzap/port1.jpg" alt="HVAC company case study">
+        <img src="/wp-content/themes/nimo/img/leadzap/port1.jpg?v=43512" alt="HVAC company case study">
         <div class="portfolio-item-overlay">
           <div class="portfolio-overlay-content">
             <span class="portfolio-item-tag">HVAC Lead Gen</span>
@@ -1292,7 +1292,7 @@
         <div class="portfolio-meta"><strong>Precision Air Flow</strong><span>3x monthly leads in 90 days</span></div>
       </div>
       <div class="portfolio-item">
-        <img src="/wp-content/themes/nimo/img/leadzap/port2.jpg" alt="Roofing company case study">
+        <img src="/wp-content/themes/nimo/img/leadzap/port2.jpg?v=43512" alt="Roofing company case study">
         <div class="portfolio-item-overlay">
           <div class="portfolio-overlay-content">
             <span class="portfolio-item-tag">Roofing Local SEO</span>
@@ -1303,7 +1303,7 @@
         <div class="portfolio-meta"><strong>Summit Roofing Co</strong><span>#1 Google Maps rank in 6 weeks</span></div>
       </div>
       <div class="portfolio-item">
-        <img src="/wp-content/themes/nimo/img/leadzap/port3.jpg" alt="Commercial contractor case study">
+        <img src="/wp-content/themes/nimo/img/leadzap/port3.jpg?v=43512" alt="Commercial contractor case study">
         <div class="portfolio-item-overlay">
           <div class="portfolio-overlay-content">
             <span class="portfolio-item-tag">Commercial B2B</span>
@@ -1314,7 +1314,7 @@
         <div class="portfolio-meta"><strong>West Coast Electric</strong><span>$48k in commercial contracts secured</span></div>
       </div>
       <div class="portfolio-item">
-        <img src="/wp-content/themes/nimo/img/leadzap/port4.jpg" alt="Plumbing company case study">
+        <img src="/wp-content/themes/nimo/img/leadzap/port4.jpg?v=43512" alt="Plumbing company case study">
         <div class="portfolio-item-overlay">
           <div class="portfolio-overlay-content">
             <span class="portfolio-item-tag">Plumbing Google Ads</span>

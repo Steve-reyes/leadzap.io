@@ -1110,10 +1110,10 @@
         <h2 class="hero-sub">More Leads. More Growth. Less Fluff.</h2>
         <p class="hero-text">We get your phone ringing with real leads  -  not vanity metrics. Lead generation from Google Maps and permits, SEO that puts you on page one, Google Ads that produce calls, and websites built to convert. No agency fluff. Just booked jobs.</p>
         <div class="hero-actions">
-          <button class="nm-pr-btn-1 lime-bg" onclick="alert('Book a Free Call')">
+          <a href="/contact-us/" class="nm-pr-btn-1 lime-bg">
             <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
             Book a Free Call
-          </button>
+          </a>
         </div>
       </div>
       <div class="hero-image-wrap">
@@ -1335,10 +1335,10 @@
   <div class="container">
     <div class="footer-top">
       <h2>Ready to make<br>your phone ring?</h2>
-      <button class="nm-pr-btn-1 lime-bg" onclick="alert('Claim Your Free Call')">
+      <a href="/contact-us/" class="nm-pr-btn-1 lime-bg">
         <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
         Claim Your Free Call
-      </button>
+      </a>
     </div>
     <div class="footer-grid">
       <div class="footer-col">

@@ -94,13 +94,8 @@ add_filter('no_texturize_shortcodes', function($shortcodes) {
     return $shortcodes;
 });
 
-// Bypass CF7 mail and return success - Flamingo handles storage
-add_action("wpcf7_before_send_mail", function($contact_form) {
-    // Skip mail delivery to avoid SMTP issues
-    // Flamingo already saves the data
-    $contact_form->skip_mail = true;
-    return $contact_form;
-}, 1);
+// Bypass CF7 mail - Flamingo handles storage
+add_filter("wpcf7_skip_mail", "__return_true");
 
 // Override CF7 mail_sent_ok message
 add_filter("wpcf7_messages", function($messages, $contact_form) {

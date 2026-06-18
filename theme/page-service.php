@@ -242,6 +242,7 @@
 
   <footer class="footer">
     <div class="container">
+      <?php $hidden_page_ids = array(53); if (!in_array(get_queried_object_id(), $hidden_page_ids)) : ?>
       <div class="footer-top">
         <h2>Ready to grow your<br>service business?</h2>
         <a href="<?php echo home_url('/#contact'); ?>" class="nm-pr-btn-1 lime-bg">
@@ -249,6 +250,7 @@
           Get in Touch
         </a>
       </div>
+      <?php endif; ?>
       <div class="footer-grid">
         <div class="footer-col">
           <h4>LeadZap</h4>

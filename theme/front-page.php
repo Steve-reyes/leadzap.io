@@ -150,7 +150,7 @@
       align-items:center;
       gap:36px;
     }
-    .header-nav a.nav-cta {
+    
       background:#d6f345;
       color:#171619;
       padding:12px 28px;
@@ -159,7 +159,7 @@
       font-weight:600;
       font-size:16px;
     }
-    .header-nav a.nav-cta:hover { background:#c8e03a; }
+    
     .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; }
     .hamburger span { width:28px; height:3px; background:#fff; border-radius:3px; }
 
@@ -247,7 +247,7 @@
       font-weight:600;
       font-size:16px;
     }
-    .header-nav ul .nav-cta a:hover { background:#c8e03a; color:#171619; }
+    
 
     /* Responsive */
     @media(max-width:991px) {
@@ -1092,7 +1092,7 @@
           'fallback_cb' => false,
           'depth' => 3,
           'walker' => new Nimo_Walker_Nav_Menu(),
-          'items_wrap' => '<ul>%3$s<li class="nav-cta"><a href="#contact">Get in Touch</a></li></ul>',
+          'items_wrap' => '<ul>%3$s</ul>',
         ]);
       ?>
     </nav>

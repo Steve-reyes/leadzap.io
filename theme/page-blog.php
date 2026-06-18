@@ -138,7 +138,7 @@
       font-weight:600;
       font-size:16px;
     }
-    .header-nav a.nav-cta:hover { background:#c8e03a; }
+    
     .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; }
     .hamburger span { width:28px; height:3px; background:#fff; border-radius:3px; }
 
@@ -192,7 +192,7 @@
       font-family:'Inter',sans-serif;
       font-weight:600; font-size:16px;
     }
-    .header-nav ul .nav-cta a:hover { background:#c8e03a; color:#171619; }
+    
 
     /* ===== BLOG ARCHIVE ===== */
     .blog-archive {

@@ -55,8 +55,8 @@
     .header-inner { display:flex; align-items:center; justify-content:space-between; }
     .header-logo { font-family:'Space Grotesk',sans-serif; font-size:28px; font-weight:700; color:#ffffff; }
     .header-nav { display:flex; align-items:center; gap:36px; }
-    .header-nav a.nav-cta { background:#d6f345; color:#171619; padding:12px 28px; border-radius:100px; font-family:'Inter',sans-serif; font-weight:600; font-size:16px; }
-    .header-nav a.nav-cta:hover { background:#c8e03a; }
+    
+    
     .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; }
     .hamburger span { width:28px; height:3px; background:#fff; border-radius:3px; }
     .header-nav .nav-item { position:relative; list-style:none; }
@@ -71,8 +71,8 @@
     .header-nav .menu-item-has-children > a::after { content:'▾'; display:inline-block; margin-left:6px; font-size:10px; color:#888; transition:transform 0.2s; }
     .header-nav .menu-item-has-children:hover > a::after { transform:rotate(180deg); }
     .header-nav ul { display:flex; align-items:center; gap:36px; margin:0; padding:0; list-style:none; }
-    .header-nav ul .nav-cta a { background:#d6f345; color:#171619; padding:12px 28px; border-radius:100px; font-family:'Inter',sans-serif; font-weight:600; font-size:16px; }
-    .header-nav ul .nav-cta a:hover { background:#c8e03a; color:#171619; }
+    
+    
 
     /* ===== SINGLE POST ===== */
     .single-post-wrap {

@@ -1531,18 +1531,20 @@
   // ===== TEAM =====
   (function(){
     const members = [
-      { name:'Alex Rivera', role:'CEO & Founder', img:'/wp-content/themes/nimo/img/leadzap/team1.jpg' },
-      { name:'Bryann Shelton', role:'Marketing Director', img:'/wp-content/themes/nimo/img/leadzap/team2.jpg' },
-      { name:'Marcus Lee', role:'Lead Developer', img:'/wp-content/themes/nimo/img/leadzap/team3.jpg' },
-      { name:'Olivia Chen', role:'SEO Strategist', img:'/wp-content/themes/nimo/img/leadzap/team4.jpg' }
+      { name:'Alex Rivera', role:'CEO & Founder' },
+      { name:'Bryann Shelton', role:'Marketing Director' },
+      { name:'Marcus Lee', role:'Lead Developer' },
+      { name:'Olivia Chen', role:'SEO Strategist' }
     ];
-    document.getElementById('team-grid').innerHTML = members.map(m => `
+    document.getElementById('team-grid').innerHTML = members.map(m => {
+      const initials = m.name.split(' ').map(n => n[0]).join('');
+      return `
       <div class="team-card">
-        <img src="${m.img}" alt="${m.name}" loading="lazy">
+        <div class="team-avatar" style="background:#d6f345; color:#171619; width:80px; height:80px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:28px; font-weight:700; font-family:'Space Grotesk',sans-serif; margin:0 auto 16px;">${initials}</div>
         <h4>${m.name}</h4>
         <span>${m.role}</span>
       </div>
-    `).join('');
+    `}).join('');
   })();
 
   // ===== FAQ =====

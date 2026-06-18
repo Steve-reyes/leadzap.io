@@ -1337,7 +1337,7 @@
       <h2>Ready to make<br>your phone ring?</h2>
       <a href="/contact-us/" class="nm-pr-btn-1 lime-bg">
         <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
-        Claim Your Free Call
+        Book a Free Call
       </a>
     </div>
     <div class="footer-grid">
@@ -1552,7 +1552,7 @@
       { q:'How fast will I get more calls?', a:'Most contractors see a spike in calls within 4-8 weeks from local SEO alone. Full SEO results hit in 3-6 months. We send monthly lead reports so you never wonder where your traffic is coming from.' },
       { q:'How much does a service business website cost?', a:'Our lead-gen sites start at a flat, transparent rate. No hidden fees, no surprise charges. Reach out for a free quote tailored to your market size and service area.' },
       { q:'Can you handle multi-city service areas?', a:'Yes. We build location-specific pages and citation strategies that dominate every city you service. Whether you are a single truck or a 50-truck fleet, our approach scales with you.' },
-      { q:'How do I start working with LeadZap?', a:'Click "Claim Your Free Call" or reach out through our contact form. We will schedule a free discovery call, learn about your business, and build a marketing plan that fits your goals and budget.' }
+      { q:'How do I start working with LeadZap?', a:'Click "Book a Free Call" or reach out through our contact form. We will schedule a free discovery call, learn about your business, and build a marketing plan that fits your goals and budget.' }
     ];
 
     const list = document.getElementById('faq-list');

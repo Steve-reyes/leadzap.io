@@ -1484,7 +1484,7 @@
   (function(){
     const reviews = [
       { name:'Tom Baker', role:'Owner, Baker HVAC Services', text:'LeadZap got us from 2 calls a day to 15+. Our Google Business profile went from page 3 to #1 in 6 weeks. Best money we have ever spent.', img:'/wp-content/themes/nimo/img/leadzap/review1.jpg' },
-      { name:'Lisa Nguyen', role:'CEO, Pro Plumbing Co', text:'We cut our ad spend by 40% and doubled our leads. Finally found an agency that understands plumbing contractors, not just digital marketing buzzwords.', img:'/wp-content/themes/nimo/img/leadzap/review2.jpg' },
+      { name:'Rebecca Tremblay', role:'CEO, Pro Plumbing Co', text:'We cut our ad spend by 40% and doubled our leads. Finally found an agency that understands plumbing contractors, not just digital marketing buzzwords.', img:'/wp-content/themes/nimo/img/leadzap/review2.jpg' },
       { name:'Rick Morales', role:'Owner, Morales Electric', text:'I was stuck on page 5 for every keyword. LeadZap put us on page 1 in under 3 months. My phone has not stopped ringing since.', img:'/wp-content/themes/nimo/img/leadzap/review3.jpg' },
       { name:'Diane Harper', role:'Founder, CleanRight Services', text:'The website LeadZap built us books appointments automatically. The booking form and click-to-call alone paid for the whole project in 2 months.', img:'/wp-content/themes/nimo/img/leadzap/review4.jpg' },
       { name:'Steve Crawford', role:'COO, Crawford Roofing', text:'Three agencies failed before LeadZap. They actually understand roofing  -  the seasonal cycles, the big-ticket sales, the local market dynamics. Huge difference.', img:'/wp-content/themes/nimo/img/leadzap/review5.jpg' },

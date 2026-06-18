@@ -379,9 +379,6 @@
         <div class="blog-grid">
           <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
             <article class="blog-card">
-              <?php if (has_post_thumbnail()) : ?>
-                <?php the_post_thumbnail('medium', ['class' => 'post-thumbnail', 'loading' => 'lazy']); ?>
-              <?php endif; ?>
               <div class="blog-card-body">
                 <div class="blog-date"><?php echo get_the_date('F j, Y'); ?></div>
                 <h3><?php the_title(); ?></h3>

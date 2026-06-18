@@ -280,6 +280,8 @@
       padding:80px 0 30px;
     }
     .footer-top { text-align:center; margin-bottom:60px; }
+    .footer-cta-btn { display:inline-block; background:#d6f345; color:#171619; padding:14px 36px; border-radius:100px; font-family:'Inter',sans-serif; font-size:16px; font-weight:600; transition:background 0.3s; cursor:pointer; border:none; text-decoration:none; }
+    .footer-cta-btn:hover { background:#c8e03a; }
     .footer-top h2 {
       font-family:'Space Grotesk',sans-serif;
       font-size:clamp(36px,5vw,60px);

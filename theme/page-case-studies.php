@@ -124,6 +124,8 @@
     /* ===== FOOTER ===== */
     .footer { background:#000000; padding:80px 0 30px; }
     .footer-top { text-align:center; margin-bottom:60px; }
+    .footer-cta-btn { display:inline-block; background:#d6f345; color:#171619; padding:14px 36px; border-radius:100px; font-family:'Inter',sans-serif; font-size:16px; font-weight:600; transition:background 0.3s; cursor:pointer; border:none; text-decoration:none; }
+    .footer-cta-btn:hover { background:#c8e03a; }
     .footer-top h2 { font-family:'Space Grotesk',sans-serif; font-size:clamp(36px,5vw,60px); font-weight:700; color:#ffffff; margin-bottom:24px; }
     .footer-grid { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:40px; padding-bottom:50px; border-bottom:1px solid rgba(255,255,255,0.06); margin-bottom:30px; }
     .footer-col h4 { font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:700; color:#fff; margin-bottom:20px; }

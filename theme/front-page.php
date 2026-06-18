@@ -1244,9 +1244,9 @@
     </div>
 
     <div class="b2b-cta">
-      <a href="/contact-us/" class="nm-pr-btn-1 lime-bg">
-        Get Your First B2B Lead List Free
+      <a href="/b2b-commercial-lead-generation/" class="nm-pr-btn-1 lime-bg">
         <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
+        Read More
       </a>
     </div>
   </div>

@@ -329,9 +329,7 @@
       // Listen for CF7 form submit events
       document.querySelectorAll('.wpcf7-form').forEach(function(form) {
         form.addEventListener('wpcf7submit', function(e) {
-          if (e.detail && e.detail.status === 'mail_sent') {
-            overlay.classList.add('active');
-          }
+          overlay.classList.add('active');
         });
       });
 

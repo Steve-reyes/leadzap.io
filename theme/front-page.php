@@ -1082,7 +1082,7 @@
 <!-- ===== HEADER ===== -->
 <header class="header">
   <div class="container header-inner">
-    <div class="header-logo">LeadZap</div>
+    <div class="header-logo">LeadZap.io</div>
     <nav class="header-nav">
       <?php
         wp_nav_menu([

@@ -204,7 +204,7 @@
 
   <header class="header">
     <div class="container header-inner">
-      <a href="<?php echo home_url('/'); ?>" class="header-logo">LeadZap</a>
+      <a href="<?php echo home_url('/'); ?>" class="header-logo">LeadZap.io</a>
       <nav class="header-nav">
         <?php
           wp_nav_menu([

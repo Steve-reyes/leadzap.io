@@ -298,7 +298,7 @@
         <h2>Ready to make<br>your phone ring?</h2>
         <a href="<?php echo home_url('/#contact'); ?>" class="nm-pr-btn-1 lime-bg">
           <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
-          Book a Free Call
+          Claim Your Free Call
         </a>
       </div>
       <div class="footer-grid">

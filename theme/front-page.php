@@ -1554,7 +1554,12 @@
       { q:'How fast will I get more calls?', a:'Most contractors see a spike in calls within 4-8 weeks from local SEO alone. Full SEO results hit in 3-6 months. We send monthly lead reports so you never wonder where your traffic is coming from.' },
       { q:'How much does a service business website cost?', a:'Our lead-gen sites start at a flat, transparent rate. No hidden fees, no surprise charges. Reach out for a free quote tailored to your market size and service area.' },
       { q:'Can you handle multi-city service areas?', a:'Yes. We build location-specific pages and citation strategies that dominate every city you service. Whether you are a single truck or a 50-truck fleet, our approach scales with you.' },
-      { q:'How do I start working with LeadZap?', a:'Click "Book a Free Call" or reach out through our contact form. We will schedule a free discovery call, learn about your business, and build a marketing plan that fits your goals and budget.' }
+      { q:'How do I start working with LeadZap?', a:'Click "Book a Free Call" or reach out through our contact form. We will schedule a free discovery call, learn about your business, and build a marketing plan that fits your goals and budget.' },
+      { q:'What kind of results can I expect from B2B lead generation?', a:'Our B2B clients typically close 3-5x higher contract values compared to residential leads. Commercial permits and new business registrations give you access to decision-makers who are actively looking for contractors.' },
+      { q:'How do you find commercial leads for contractors?', a:'We scrape commercial building permits, new business registrations, and municipal approvals daily. Each lead is enriched with company names, phone numbers, emails, and project details so your sales team can start calling immediately.' },
+      { q:'Is there a minimum commitment for B2B lead packages?', a:'No long-term contracts. We offer weekly and monthly B2B lead lists. You pay for the data you use. Cancel anytime with no penalties.' },
+      { q:'Do you work with contractors outside the US?', a:'Yes. While our core focus is US-based contractors, our B2B lead generation methods work in any country with public permit and business registry data. Reach out and we will check coverage in your area.' },
+      { q:'Can you integrate with my CRM?', a:'Absolutely. We deliver leads in CSV, Excel, or direct API integration with popular CRMs like HubSpot, Salesforce, and Pipedrive. Custom integrations available on request.' }
     ];
 
     const list = document.getElementById('faq-list');

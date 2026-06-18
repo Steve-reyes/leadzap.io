@@ -1378,7 +1378,7 @@
     </div>
     <div class="footer-legal-links"><a href="/privacy-policy/">Privacy Policy</a> <a href="/terms-of-service/">Terms of Service</a></div>
     <div class="footer-bottom">
-      &copy; 2026. All rights reserved. LeadZap.io - Lead Generation 2025. All rights reserved. LeadZap  -  Lead Generation & Growth for Home Service Contractors. Growth for Service Contractors.
+      &copy; 2026. All rights reserved. LeadZap.io - Lead Generation & Growth for Service Contractors.
     </div>
   </div>
 </footer>

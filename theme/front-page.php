@@ -1391,7 +1391,7 @@
         title:'Service Business SEO',
         desc:'Stop hiding on page 5. We put HVAC, plumbing, electrical, roofing, and landscaping contractors on page one of Google  -  where homeowners actually find you. Local keywords, Maps rankings, and Google Local Service Ads that pull in calls.',
         checks:['Industry-specific keyword research','Google Business Profile takeover','Local Service Ads setup & management','Technical SEO for service websites'],
-        img:'/wp-content/themes/nimo/img/leadzap/service-brand.jpg',
+        img:'/wp-content/themes/nimo/img/leadzap/service-seo.jpg',
         url:'https://nimo-clone.87.106.124.206.nip.io/service-business-seo/'
       },
       {

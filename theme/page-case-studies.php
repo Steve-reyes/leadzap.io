@@ -27,8 +27,8 @@
     .container { max-width:1320px; margin:0 auto; padding:0 24px; }
     :root { --body-bg:#111111; --text:#b5b5b5; --white:#ffffff; --lime:#d6f345; --dark-btn:#282828; --btn-text:#171619; --hero-bg:#000000; --tag-bg:#323232; --border-rgba:rgba(255,255,255,0.2); }
 
-    .nm-pr-btn-1 { display:inline-flex; align-items:center; gap:14px; background:#282828; color:#171619; padding:6px 30px 6px 6px; border-radius:100px; font-family:'Inter',sans-serif; font-size:16px; font-weight:600; border:none; cursor:pointer; transition:all 0.3s ease; }
-    .nm-pr-btn-1:hover { opacity:0.85; }
+    .nm-pr-btn-1 { display:inline-flex; align-items:center; gap:14px; background:#282828; color:#e0e0e0; padding:6px 30px 6px 6px; border-radius:100px; font-family:'Inter',sans-serif; font-size:16px; font-weight:600; border:none; cursor:pointer; transition:all 0.3s ease; }
+    .nm-pr-btn-1:hover { background:#333; color:#d6f345; }
     .nm-pr-btn-1 .wa_magnetic_btn_2_elm { display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; background:#d6f345; border-radius:50%; color:#171619; font-size:18px; flex-shrink:0; }
     .nm-pr-btn-1.lime-bg { background:#d6f345; color:#171619; }
     .nm-pr-btn-1.lime-bg .wa_magnetic_btn_2_elm { background:#171619; color:#d6f345; }
@@ -237,7 +237,7 @@
     <div class="container">
       <div class="footer-top">
         <h2>Ready to make<br>your phone ring?</h2>
-        <a href="<?php echo '/contact-us/'; ?>" class="nm-pr-btn-1 lime-bg">
+        <a href="<?php echo '/contact-us/'; ?>" class="nm-pr-btn-1">
           <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
           Claim Your Free Call
         </a>

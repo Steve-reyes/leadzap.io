@@ -60,7 +60,7 @@
       cursor:pointer;
       transition:all 0.3s ease;
     }
-    .nm-pr-btn-1:hover { opacity:0.85; }
+    .nm-pr-btn-1:hover { background:#333; color:#d6f345; }
     .nm-pr-btn-1 .wa_magnetic_btn_2_elm {
       display:inline-flex;
       align-items:center;
@@ -416,7 +416,7 @@
     <div class="container">
       <div class="footer-top">
         <h2>Ready to make<br>your phone ring?</h2>
-        <a href="<?php echo '/contact-us/'; ?>" class="nm-pr-btn-1 lime-bg">
+        <a href="<?php echo '/contact-us/'; ?>" class="nm-pr-btn-1">
           <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
           Claim Your Free Call
         </a>

@@ -214,7 +214,7 @@
             'fallback_cb' => false,
             'depth' => 3,
             'walker' => new Nimo_Walker_Nav_Menu(),
-            'items_wrap' => '<ul>%3$s<li class="nav-cta"><a href="'.home_url('/#contact').'">Contact Us</a></li></ul>',
+            'items_wrap' => '<ul>%3$s<li class="nav-cta"><a href="'.'/contact-us/'.'">Contact Us</a></li></ul>',
           ]);
         ?>
       </nav>
@@ -247,7 +247,7 @@
       <?php $hidden_page_ids = array(53); if (!in_array(get_queried_object_id(), $hidden_page_ids)) : ?>
       <div class="footer-top">
         <h2>Ready to grow your<br>service business?</h2>
-        <a href="<?php echo home_url('/#contact'); ?>" class="nm-pr-btn-1 lime-bg">
+        <a href="<?php echo '/contact-us/'; ?>" class="nm-pr-btn-1 lime-bg">
           <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
           Contact Us
         </a>

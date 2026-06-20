@@ -1,0 +1,57 @@
+server {
+    server_name leadzap.io www.leadzap.io;
+
+    # For certbot challenges
+    location /.well-known/acme-challenge/ {
+        root /var/www/leadzap-challenge;
+    }
+
+    location / {
+        proxy_pass http://127.0.0.1:8086;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_read_timeout 300s;
+        proxy_send_timeout 300s;
+    }
+
+    # Cache static assets - E56 Expires headers fix
+    location ~* \.(jpg|jpeg|png|gif|ico|webp|svg|avif|css|js|woff2?|ttf|eot|otf|pdf|zip)$ {
+        proxy_pass http://127.0.0.1:8086;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        expires 30d;
+        add_header Cache-Control "public, immutable, max-age=2592000";
+        access_log off;
+    }
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/leadzap.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/leadzap.io/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+
+}
+server {
+    if ($host = www.leadzap.io) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    if ($host = leadzap.io) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    server_name leadzap.io www.leadzap.io;
+    listen 80;
+    return 404; # managed by Certbot
+
+
+
+
+}
